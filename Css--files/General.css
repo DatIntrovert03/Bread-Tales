@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: auto 0;
+  font-family: 'Aleo', sans-serif;
+  color: black;
+  line-height: 1.2;
+  /* width: 130rem; */
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 9.6rem;
+  color: #f9ca24;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #f9ca24;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 6.4rem;
+  margin-bottom: 3rem;
+  color: #964b00;
+}
+
+
+.hero--btn:link,
+.hero--btn:visited {
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 1.8rem;
+  color: #f9ca24;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.hero--btn:hover,
+.hero--btn:active {
+  transform: translateY(3rem);
+}
+
+.grid {
+  display: grid;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.grid--two--columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--four--columns {
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+}
